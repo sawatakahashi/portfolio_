@@ -1,0 +1,88 @@
+.nameTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.initialName {
+  color: #ff1282;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.mediumText {
+  font-size: 1rem;
+  /* font-weight: 800; */
+  letter-spacing: 0.2rem;
+  /* margin: 1rem 0; */
+  line-height: 3;
+  cursor: pointer;
+}
+.mediumText:hover {
+  color: #b1b3b2;
+}
+.mediumTextNomal {
+  font-size: 1rem;
+  /* font-weight: 800; */
+  letter-spacing: 0.2rem;
+  /* margin: 1rem 0; */
+  line-height: 3;
+}
+
+.desc {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+}
+
+.lightText {
+  color: #2f2f2f;
+  padding: 3px;
+}
+.boldText {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.aboutTitles {
+  /* background-color: gray; */
+  width: 350px;
+  margin: 20px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.aboutContents {
+  width: 650px;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 896px) {
+  .initialName {
+    font-size: 40px;
+  }
+  .nameTitle {
+    font-size: 40px;
+  }
+
+  .mediumText {
+    font-size: 0.7rem;
+  }
+
+  .mediumTextNomal {
+    font-size: 0.7rem;
+  }
+
+  .aboutTitles {
+    width: 150px;
+  }
+
+  .aboutContents {
+    width: 250px;
+    font-size: 0.72rem;
+    margin-top: 20px;
+    line-height: 1.4;
+  }
+}

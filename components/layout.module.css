@@ -1,0 +1,39 @@
+.nav {
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+  margin: 0;
+  padding: 8px;
+  background-color: #ffb3b3;
+  opacity: 06;
+}
+
+@media screen and (max-width: 896px) {
+  .navbar li {
+    margin: 5px;
+    text-align: center;
+  }
+  .navbar {
+    margin-right: 50px;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 28%;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li:hover {
+  color: #696969;
+}
+
+.img {
+  margin-left: 30px;
+}

@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.profile {
+  margin-right: 100px;
+}
+
+.name {
+  display: flex;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.image {
+  width: 300px;
+}
+
+.latteImg {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+}
+
+.latteImg img {
+  margin-top: 10px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.profileImage {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.aboutContainer {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.aboutBox {
+  display: flex;
+  line-height: 1.9;
+}
+
+@media screen and (max-width: 896px) {
+  .container {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .profile {
+    margin-right: 0;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .image {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .latteImg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  .latteImg > div {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .latteImg img {
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .aboutContainer {
+    width: 400px;
+    margin: 20px 70px;
+  }
+}
