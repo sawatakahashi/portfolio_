@@ -44,15 +44,12 @@ function Skills() {
                 presented some challenges, particularly in saving and displaying
                 images, but I overcame them through resourceful problem-solving.
                 <br />
-                This project taught me the importance of self-learning,
-                teamwork, and project management. I emphasized code quality and
-                readability, following established conventions and ensuring
-                maintainability. The design was also a focus, with user feedback
-                and usability tests guiding iterative improvements.
+                This project taught me the importance of self-learning, and
+                project management. I emphasized code quality and readability.
                 <br />
-                Overall, my portfolio showcases this project, highlighting both
-                its technical aspects and the valuable skills and insights
-                gained along the way.
+                This project showcases my portfolio, highlighting both its
+                technical aspects and the valuable skills and insights gained
+                along the way.
               </p>
               <br />
               <Link className={utilStyles.boldText} href="#">
