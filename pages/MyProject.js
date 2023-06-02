@@ -88,7 +88,10 @@ function Skills() {
                 through game development in my portfolio.
               </p>
               <br />
-              <Link className={utilStyles.boldText} href="#">
+              <Link
+                className={utilStyles.boldText}
+                href="https://typing-game-2023.netlify.app"
+              >
                 Check this project
               </Link>
             </div>
@@ -123,6 +126,23 @@ function Skills() {
                 className={utilStyles.boldText}
                 href="https://chimerical-scone-e6ee81.netlify.app"
               >
+                Check this project
+              </Link>
+            </div>
+          )}
+        </div>
+        <div className={styles.aboutBox}>
+          <div
+            className={utilStyles.aboutTitles}
+            onClick={() => handleProjectClick("project4")}
+          >
+            Brick Breaker
+          </div>
+          {projectClicked === "project4" && (
+            <div className={utilStyles.aboutContents}>
+              <p>aaaaaaaaa</p>
+              <br />
+              <Link className={utilStyles.boldText} href="#">
                 Check this project
               </Link>
             </div>
