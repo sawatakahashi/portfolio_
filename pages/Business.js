@@ -17,11 +17,11 @@ function Business() {
       </Head>
       <div className={styles.aboutContainer}>
         <div className={utilStyles.mediumTextNomal}>
-          My husband and I running Ramen business in Vancouver.
+          My husband and I run a ramen business in Vancouver, BC.
           <br />
-          He is a cheif, he makes everything with scracth.
+          He is the chef and makes everything from scratch.
           <br />
-          I do organize orders, marketing, advertisement design.
+          I organize the orders, handle marketing, and create advertisement design.
           <div className={utilStyles.flex}>
             Go check our website :&nbsp;&nbsp;
             <div className={utilStyles.mediumText}>

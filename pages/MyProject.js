@@ -80,8 +80,8 @@ function Skills() {
                 played comfortably on different devices and screen sizes. It
                 automatically adjusts to provide the best experience for users.
                 <br />
-                Personally, I use this game to practice and improve my typing
-                speed, enhancing my accuracy and speed.
+                I use this game to practice and improve my typing speed,
+                enhancing my accuracy and speed.
                 <br />
                 These improvements make the game more user-friendly and
                 captivating. It also showcases my skills and insights gained
@@ -102,16 +102,16 @@ function Skills() {
             className={utilStyles.aboutTitles}
             onClick={() => handleProjectClick("project3")}
           >
-            Fourtune Game
+            Fortune Game
           </div>
           {projectClicked === "project3" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                This game holds a special place for me as it marks my very first
-                venture into game development. Guided by instructional
-                materials, I eagerly set out to create a captivating experience.
-                In the process, I introduced a mesmerizing snowfall feature that
-                adds a touch of enchantment to the game.
+                This game is special to me as it marks my first venture into
+                game development. Guided by instructional materials, I eagerly
+                set out to create a captivating experience. In the process, I
+                introduced a mesmerizing snowfall feature that adds a touch of
+                enchantment to the game.
                 <br />
                 The moment I completed this project, I was overwhelmed with a
                 profound sense of achievement. It was a remarkable realization

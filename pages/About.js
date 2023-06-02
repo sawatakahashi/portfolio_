@@ -40,7 +40,7 @@ function About() {
               <br />
               I was born in Japan.
               <br />
-              I love travel and I traveled a lot of countries.
+              I love to travel and have been to many countries.
               <br />
               (LA, Seattle, Italy, switzerland, France, Malta, Taiwan, Malaysia,
               Mongol, Korea, Mexico)
