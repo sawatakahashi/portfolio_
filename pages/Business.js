@@ -16,7 +16,7 @@ function Business() {
         <title>Business</title>
       </Head>
       <div className={styles.aboutContainer}>
-        <div className={utilStyles.mediumTextNomal}>
+        <div className={utilStyles.mediumText}>
           My husband and I run a ramen business in Vancouver, BC.
           <br />
           He is the chef and makes everything from scratch.
