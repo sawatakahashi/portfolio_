@@ -76,13 +76,18 @@
   }
 
   .aboutTitles {
-    width: 150px;
+    font-size: 0.8rem;
+    width: 100px;
   }
 
   .aboutContents {
     width: 250px;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     margin-top: 20px;
     line-height: 1.6;
+  }
+
+  .desc {
+    font-size: 0.8rem;
   }
 }

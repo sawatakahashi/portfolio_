@@ -139,7 +139,7 @@ function Skills() {
             <div className={utilStyles.aboutContents}>
               <p>aaaaaaaaa</p>
               <br />
-              <Link className={utilStyles.boldText} href="#">
+              <Link className={utilStyles.boldText} href="https://legendary-pastelito-0bb2ba.netlify.app">
                 Check this project
               </Link>
             </div>
