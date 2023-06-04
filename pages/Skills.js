@@ -15,7 +15,7 @@ function Skills() {
         <title>History</title>
       </Head>
       <div className={styles.aboutContainer}>
-        <div className={utilStyles.mediumTextNomal}>
+        <div className={utilStyles.mediumTextNormal}>
           ・HTML
           <br />
           ・CSS

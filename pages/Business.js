@@ -16,12 +16,12 @@ function Business() {
         <title>Business</title>
       </Head>
       <div className={styles.aboutContainer}>
-        <div className={utilStyles.mediumText}>
+        <div className={utilStyles.mediumTextNormal}>
           My husband and I run a ramen business in Vancouver, BC.
           <br />
           He is the chef and makes everything from scratch.
-          <br />
-          I organize the orders, handle marketing, and create advertisement design.
+          <br />I organize the orders, handle marketing, and create
+          advertisement design.
           <div className={utilStyles.flex}>
             Go check our website :&nbsp;&nbsp;
             <div className={utilStyles.mediumText}>
@@ -33,9 +33,7 @@ function Business() {
           <div className={utilStyles.flex}>
             Instagram :&nbsp;&nbsp;
             <div className={utilStyles.mediumText}>
-              <Link href="#">
-                @luckybeporamen
-              </Link>
+              <Link href="#">@luckybeporamen</Link>
             </div>
           </div>
         </div>

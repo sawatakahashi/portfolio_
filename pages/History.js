@@ -15,7 +15,7 @@ function History() {
         <title>History</title>
       </Head>
       <div className={styles.aboutContainer}>
-        <div className={utilStyles.mediumTextNomal}>
+        <div className={utilStyles.mediumTextNormal}>
           <p className={utilStyles.boldText}>My Programming History</p>
           ・During my student years, I utilized HTML and CSS to design an
           original blog.

@@ -20,7 +20,7 @@
 .mediumText:hover {
   color: #b1b3b2;
 }
-.mediumTextNomal {
+.mediumTextNormal {
   font-size: 1rem;
   /* font-weight: 800; */
   letter-spacing: 0.2rem;
@@ -49,14 +49,14 @@
 .aboutTitles {
   /* background-color: gray; */
   width: 350px;
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .aboutContents {
   width: 650px;
-  font-size: 0.8rem;
+  font-size: 0.92rem;
 }
 
 @media screen and (max-width: 896px) {
@@ -73,7 +73,7 @@
     word-wrap: break-word;
   }
 
-  .mediumTextNomal {
+  .mediumTextNormal {
     font-size: 0.7rem;
   }
 
