@@ -52,7 +52,7 @@ function Skills() {
                 along the way.
               </p>
               <br />
-              <Link className={utilStyles.boldText} href="#">
+              <Link className={utilStyles.boldText} href="https://discord-app-nine.vercel.app">
                 Check this project
               </Link>
             </div>
