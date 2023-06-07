@@ -33,7 +33,9 @@ function Business() {
           <div className={utilStyles.flex}>
             Instagram :&nbsp;&nbsp;
             <div className={utilStyles.mediumText}>
-              <Link href="#">@luckybeporamen</Link>
+              <Link href="https://www.instagram.com/luckybeporamen/">
+                @luckybeporamen
+              </Link>
             </div>
           </div>
         </div>

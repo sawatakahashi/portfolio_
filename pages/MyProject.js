@@ -137,7 +137,9 @@ function Skills() {
           </div>
           {projectClicked === "project4" && (
             <div className={utilStyles.aboutContents}>
-              <p>aaaaaaaaa</p>
+              <p>This game is one that I used to play a lot and I was able to create it using just HTML, CSS, and JavaScript. The process was incredibly enjoyable for me.
+
+As it was my first attempt, I struggled to understand the code, but the journey proved to be a highly beneficial learning experience. The experience of creating a game by myself was immensely valuable in developing crucial programming skills.</p>
               <br />
               <Link className={utilStyles.boldText} href="https://legendary-pastelito-0bb2ba.netlify.app">
                 Check this project
