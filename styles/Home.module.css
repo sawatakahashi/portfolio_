@@ -104,11 +104,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 10px 0;
+    font-size: 30px;
   }
 
   .aboutContainer {
-    width: 400px;
+    width: 350px;
     margin: 20px;
   }
+
 }
