@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 100vh;
 }
 
 .profile {
@@ -54,7 +55,7 @@
 
 .aboutContainer {
   width: 1000px;
-  height: 800px;
+  height: 500px;
   margin: 70px auto;
   overflow-y: auto;
 }
