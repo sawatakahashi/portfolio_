@@ -28,6 +28,9 @@ function Skills() {
           <br />
           ・Typescript
           <br />
+          <br />
+          ・Firebase
+          <br />
         </div>
       </div>
     </motion.div>
