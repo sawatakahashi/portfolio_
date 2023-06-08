@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 
-function Skills() {
+function Contact() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -27,4 +27,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Contact;

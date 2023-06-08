@@ -54,7 +54,9 @@
 
 .aboutContainer {
   width: 1000px;
+  height: 400px;
   margin: 70px auto;
+  overflow-y: auto;
 }
 
 .aboutBox {
@@ -112,5 +114,4 @@
     width: 350px;
     margin: 20px;
   }
-
 }

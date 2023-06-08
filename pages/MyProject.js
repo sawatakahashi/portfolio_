@@ -5,7 +5,7 @@ import { useState } from "react";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-function Skills() {
+function MyProject() {
   const [projectClicked, setProjectClicked] = useState(false);
 
   const handleProjectClick = (project) => {
@@ -152,4 +152,4 @@ As it was my first attempt, I struggled to understand the code, but the journey 
   );
 }
 
-export default Skills;
+export default MyProject;
