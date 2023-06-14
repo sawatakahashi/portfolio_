@@ -50,6 +50,9 @@ function MyProject() {
                 This project showcases my portfolio, highlighting both its
                 technical aspects and the valuable skills and insights gained
                 along the way.
+                <br />
+                <br />
+                ps. There is Log in function.
               </p>
               <br />
               <Link className={utilStyles.boldText} href="https://discord-app-nine.vercel.app">

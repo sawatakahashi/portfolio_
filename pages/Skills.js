@@ -28,12 +28,9 @@ function Skills() {
           <br />
           ・Typescript
           <br />
-<<<<<<< HEAD
-=======
-          <br />
           ・Firebase
           <br />
->>>>>>> parent of 0107ac1 (Update Skills.js)
+
         </div>
       </div>
     </motion.div>
