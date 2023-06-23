@@ -55,7 +55,10 @@ function MyProject() {
                 ps. There is Log in function.
               </p>
               <br />
-              <Link className={utilStyles.boldText} href="https://discord-app-nine.vercel.app">
+              <Link
+                className={utilStyles.boldText}
+                href="https://discord-app-nine.vercel.app"
+              >
                 Check this project
               </Link>
             </div>
@@ -66,9 +69,37 @@ function MyProject() {
             className={utilStyles.aboutTitles}
             onClick={() => handleProjectClick("project2")}
           >
-            Typing Game
+            Anime List
           </div>
           {projectClicked === "project2" && (
+            <div className={utilStyles.aboutContents}>
+              <p>
+                I created a website using an API. As a big fan of anime, I built
+                a website using the Jikan API that allows users to search for
+                anime. I encountered some difficulties when trying to display
+                images. They wouldn't show up, and I had to resort to using
+                console.log to troubleshoot the issue. Whenever I finally solved
+                the problem, I experienced a sense of achievement and a
+                refreshing feeling.
+              </p>
+              <br />
+              <Link
+                className={utilStyles.boldText}
+                href="https://anime-database-kappa.vercel.app/"
+              >
+                Check this project
+              </Link>
+            </div>
+          )}
+        </div>
+        <div className={styles.aboutBox}>
+          <div
+            className={utilStyles.aboutTitles}
+            onClick={() => handleProjectClick("project3")}
+          >
+            Typing Game
+          </div>
+          {projectClicked === "project3" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 This game was inspired by YouTube videos. I learned how to add
@@ -100,11 +131,11 @@ function MyProject() {
         <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
-            onClick={() => handleProjectClick("project3")}
+            onClick={() => handleProjectClick("project4")}
           >
             Fortune Game
           </div>
-          {projectClicked === "project3" && (
+          {projectClicked === "project4" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 This game is special to me as it marks my first venture into
@@ -134,17 +165,26 @@ function MyProject() {
         <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
-            onClick={() => handleProjectClick("project4")}
+            onClick={() => handleProjectClick("project5")}
           >
             Brick Breaker
           </div>
-          {projectClicked === "project4" && (
+          {projectClicked === "project5" && (
             <div className={utilStyles.aboutContents}>
-              <p>This game is one that I used to play a lot and I was able to create it using just HTML, CSS, and JavaScript. The process was incredibly enjoyable for me.
-
-As it was my first attempt, I struggled to understand the code, but the journey proved to be a highly beneficial learning experience. The experience of creating a game by myself was immensely valuable in developing crucial programming skills.</p>
+              <p>
+                This game is one that I used to play a lot and I was able to
+                create it using just HTML, CSS, and JavaScript. The process was
+                incredibly enjoyable for me. As it was my first attempt, I
+                struggled to understand the code, but the journey proved to be a
+                highly beneficial learning experience. The experience of
+                creating a game by myself was immensely valuable in developing
+                crucial programming skills.
+              </p>
               <br />
-              <Link className={utilStyles.boldText} href="https://legendary-pastelito-0bb2ba.netlify.app">
+              <Link
+                className={utilStyles.boldText}
+                href="https://legendary-pastelito-0bb2ba.netlify.app"
+              >
                 Check this project
               </Link>
             </div>
