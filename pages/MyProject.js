@@ -27,14 +27,36 @@ function MyProject() {
         <title>My Project</title>
       </Head>
       <div className={styles.aboutContainer}>
-        <div className={styles.aboutBox}>
+      <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
             onClick={() => handleProjectClick("project1")}
           >
-            Discord Clone
+            Online Shopping website
           </div>
           {projectClicked === "project1" && (
+            <div className={utilStyles.aboutContents}>
+              <p>
+                Developed a user-friendly website for our brand, drawing inspiration from Udemy's design principles. Leveraged the power of Cursor to seamlessly integrate with ChatGPT, significantly reducing error resolution time. Introduced a streamlined login functionality through GitHub integration, enhancing user authentication. Moreover, by incorporating the latest updates from Next.js, I not only ensured the site's technical robustness but also expanded my knowledge base, providing opportunities for continuous learning and improvement in the overall development process.
+              </p>
+              <br />
+              <Link
+                className={utilStyles.boldText}
+                href="https://denshi-app.vercel.app/"
+              >
+                Check this project
+              </Link>
+            </div>
+          )}
+        </div>
+        <div className={styles.aboutBox}>
+          <div
+            className={utilStyles.aboutTitles}
+            onClick={() => handleProjectClick("project2")}
+          >
+            Discord Clone
+          </div>
+          {projectClicked === "project2" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 I developed this project using reference materials and expanded
@@ -67,11 +89,11 @@ function MyProject() {
         <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
-            onClick={() => handleProjectClick("project2")}
+            onClick={() => handleProjectClick("project3")}
           >
             Anime List
           </div>
-          {projectClicked === "project2" && (
+          {projectClicked === "project3" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 I created a website using an API. As a big fan of anime, I built
@@ -95,11 +117,11 @@ function MyProject() {
         <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
-            onClick={() => handleProjectClick("project3")}
+            onClick={() => handleProjectClick("project4")}
           >
             Typing Game
           </div>
-          {projectClicked === "project3" && (
+          {projectClicked === "project4" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 This game was inspired by YouTube videos. I learned how to add
@@ -131,11 +153,11 @@ function MyProject() {
         <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
-            onClick={() => handleProjectClick("project4")}
+            onClick={() => handleProjectClick("project5")}
           >
             Fortune Game
           </div>
-          {projectClicked === "project4" && (
+          {projectClicked === "project5" && (
             <div className={utilStyles.aboutContents}>
               <p>
                 This game is special to me as it marks my first venture into
@@ -162,7 +184,7 @@ function MyProject() {
             </div>
           )}
         </div>
-        <div className={styles.aboutBox}>
+        {/* <div className={styles.aboutBox}>
           <div
             className={utilStyles.aboutTitles}
             onClick={() => handleProjectClick("project5")}
@@ -189,7 +211,7 @@ function MyProject() {
               </Link>
             </div>
           )}
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
