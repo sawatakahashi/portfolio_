@@ -17,13 +17,16 @@ function Business() {
       </Head>
       <div className={styles.aboutContainer}>
         <div className={utilStyles.mediumTextNormal}>
-          My husband and I run a ramen business in Vancouver, BC.
+         夫と私で2021年９月にバンクーバーで、ラーメンポップアップを立ち上げました。
           <br />
-          He is the chef and makes everything from scratch.
-          <br />I organize the orders, handle marketing, and create
-          advertisement design.
+          麺もスープもトッピング全て彼が作り、私はメニューのデザイン、ロゴを作ったりマーケティング全般、接客を担当しています。
+          <br />
+          私たちの強みは、毎回違うタイプのラーメンを提供し、バンクーバーどのお店にもないラーメンを味わえることです。
+          本場のラーメンの味を、おいしさを知ってもらい、食にこだわりが強い日本食文化を広げたく始めました。
+          <br/>
+          常連客がたくさんいて、いつも感動してくれることにやりがいを感じております。
           <div className={utilStyles.flex}>
-            Go check our website :&nbsp;&nbsp;
+           ウェブサイトはこちら :&nbsp;&nbsp;
             <div className={utilStyles.mediumText}>
               <Link href="https://luckybeporamen.com/Who-we-are">
                 Lucy Bepo Ramen

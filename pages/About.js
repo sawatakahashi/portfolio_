@@ -36,19 +36,22 @@ function About() {
           </div>
           {clicked === "title1" && (
             <div className={utilStyles.aboutContents}>
-              My name is Sawa Takahashi
+              私の名前は髙橋佐和です。
               <br />
-              I was born in Japan.
+              日本の高知県で生まれ、大学生活は大阪で過ごしました。
               <br />
-              I love to travel and have been to many countries.
+              旅行が大好きで、知らない世界を見てみたいと思いあらゆるところに旅行に行きました。
               <br />
-              (LA, Seattle, Italy, switzerland, France, Malta, Taiwan, Malaysia,
+              (Vancouver, Toronto, LA, Seattle, Portland Italy, switzerland, France, Malta, Taiwan, Malaysia,
               Mongol, Korea, Mexico)
               <br />
-              I wanted to experience living in a different country, so I decided
-              to move to Vancouver.
-              <br />I am currently working as a barista and striving to improve
-              my latte art skills.
+              旅行だけでは物足りなく、海外で生活し、働いてみたいと思い、2019年１月にカナダに渡米しました。
+              <br />
+              カナダではやってみたかったバリスタの仕事につきました。
+              <br/>
+              ローカルなカフェだったので当時は日本人は私が一人だったので英語のスキル、コミュニケーションスキルにも磨きをかけ、さらに自分のバリスタとしてのスキルを上げました。
+              <br />
+              こちらが一部の作品となっております。
               <br />
               <div className={styles.latteImg}>
                 <div>
@@ -76,24 +79,16 @@ function About() {
           </div>
           {clicked === "title2" && (
             <div className={utilStyles.aboutContents}>
-              15 years of experience in the customer service industry including
-              part-time jobs during my student days.
-              <br />
-              Developed a sense of hospitality through communication with
-              customers.
-              <br />
-              Seamless Team Communication: I emphasized effective communication
-              with team members and other departments. Conducting regular
-              meetings facilitated information sharing and problem-solving,
-              ensuring smooth operational workflows.
-              <br />
-              Supporting and Building Trust Among Team Members: I actively
-              supported the growth and success of my colleagues. When faced with
-              challenging situations or tasks, I provided encouragement,
-              guidance, and constructive feedback, fostering a culture of
-              collaboration and trust.
-              <br /> I encouraged and motivated team members and superiors,
-              contributing to a positive and enjoyable workplace atmosphere.
+              15年間の接客業の経験があります（学生時代からのアルバイトも含まれます）。
+              <br/>
+              お客様とのコミュニケーションを通じてホスピタリティ精神を磨いてきました。
+              <br/>
+              円滑なチーム間コミュニケーションに重点を置き、チームメンバーや他部門との効果的なコミュニケーションを促進しました。定期的なミーティングを通じて情報共有や問題解決を行い、業務をスムーズにしました。
+              <br/>
+              チームメンバー間の信頼構築と支援に積極的に取り組み、同僚の成長と成功をサポートしました。困難な状況やタスクに直面した際には、励ましや指導、建設的なフィードバックを提供し、協力と信頼の文化を築きました。
+              <br/>
+              さらに、チームメンバーや上司を励まし、モチベーションを高め、ポジティブで楽しい職場の雰囲気に貢献しました。常連のお客様と仲良くなり、一期一会の素敵な出会いをたくさん経験しました。
+
             </div>
           )}
         </div>
@@ -107,33 +102,29 @@ function About() {
           {clicked === "title3" && (
             <div className={utilStyles.aboutContents}>
               <p className={utilStyles.boldText}>
-                Interest and Enjoyment in Programming
+              プログラミングへの興味を持ったきっかけ
               </p>
-              &nbsp;Developed an interest in programming influenced by a friend
-              (2021)
+              ・義兄や彼のパートナー、そして周囲に多くのプログラマーがいたことがきっかけです。
               <br />
-              ・Learned from programmer friends and experienced the joy of
-              coding.
+              ・Paizaを解いていく楽しみを味わいました。
               <br />
-              ・Found fulfillment in solving errors and bringing new ideas to
-              life through programming.
+              ・プログラミングを通じて、エラーを周囲の助けを借りながら解決し、作品が完成していく過程で充実感を感じ、さらなる興味を持ち、オンライン授業を受ける決心をしました。
+              <br />
               <br />
               <p className={utilStyles.boldText}>
-                Desire for Growth and New Challenges
+              成長と新たな挑戦への欲求
               </p>
-              &nbsp;Felt the limitations of growth in the hospitality industry
-              and wanted to acquire new skills
-              <br />
-              ・Recognized the need for a broader skill set for personal growth.
-              <br />
-              ・Wished to expand personal growth and career opportunities by
-              acquiring engineering skills.
-              <p className={utilStyles.boldText}>Aspiring to be an Engineer</p>
-              ・Aim to become an engineer with creative problem-solving
-              abilities and teamwork skills.
-              <br />
-              ・Intend to apply the spirit of hospitality to programming and
-              provide user-friendly and valuable solutions.
+              ・接客業界での成長の限界を感じ、新しいスキルを身につけたいと思いました。
+              <br/>
+              ・個人の成長には幅広いスキルセットが必要であることを認識しました。
+              <br/>
+              ・エンジニアリングのスキルを身につけることで、個人の成長とキャリアの機会を拡大したいと願っています。
+              <br/>
+              <br/>
+              <p className={utilStyles.boldText}>エンジニアを目指して</p>
+              ・クリエイティブな問題解決能力とチームワークスキルを持つエンジニアになることを目指しています。
+              <br/>
+              ・ホスピタリティの精神をプログラミングに応用し、ユーザーフレンドリーで価値のあるソリューションを提供したいと考えています。また、将来的には、オンラインゲームやPUBGのような3Dゲームの開発にも挑戦し、野心を持っています。
             </div>
           )}
         </div>

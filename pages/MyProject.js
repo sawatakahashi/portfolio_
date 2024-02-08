@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Image from "next/image";
+
 
 function MyProject() {
   const [projectClicked, setProjectClicked] = useState(false);
@@ -33,19 +35,37 @@ function MyProject() {
             onClick={() => handleProjectClick("project1")}
           >
             Online Shopping website
+            <p className={utilStyles.subText}>January/2024</p>
           </div>
           {projectClicked === "project1" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                Developed a user-friendly website for our brand, drawing inspiration from Udemy's design principles. Leveraged the power of Cursor to seamlessly integrate with ChatGPT, significantly reducing error resolution time. Introduced a streamlined login functionality through GitHub integration, enhancing user authentication. Moreover, by incorporating the latest updates from Next.js, I not only ensured the site's technical robustness but also expanded my knowledge base, providing opportunities for continuous learning and improvement in the overall development process.
+              自分たちのラーメン屋さん向けに、将来商品ができた際にオンライン販売を可能にするウェブサイトを開発しました。Udemyを参考にして初めてオンライン決済機能を実装しました。エディターとしてはCursorを使用し、ChatGPTを活用してエラーやスペルミスなどを解決する時間を大幅に短縮しました。また、GitHubを使用してログイン機能を導入し、ユーザー認証を強化しました。(ポートフォリオ用にログインページは表示していません)
+              <br/>
+              Next.jsの最新のアップデートを取り入れることで、知識ベースを拡大し、継続的な学習と全体的な開発プロセスの改善へ努めました。
               </p>
               <br />
               <Link
-                className={utilStyles.boldText}
+                className={utilStyles.boldTextHover}
                 href="https://denshi-app.vercel.app/"
               >
-                Check this project
+                ネットショッピングアプリをみてみる
               </Link>
+              <br />
+              <br />
+
+              <div className={styles.s_Image}>
+              <Image src="/Shopping_1.png" layout="responsive" width={300} height={300}/>
+              <p>　＞</p>
+              <br />
+              <Image src="/Shopping_2.png" layout="responsive" width={300} height={300}/>
+              </div>
+              <br />
+              <div className={styles.s_Image}>
+              <Image src="/Shopping_3.png" width={300} height={300}/>
+              <p>　＞</p>
+              <Image src="/Shopping_4.png" width={300} height={200}/>
+              </div>
             </div>
           )}
         </div>
@@ -55,34 +75,39 @@ function MyProject() {
             onClick={() => handleProjectClick("project2")}
           >
             Discord Clone
+            <p className={utilStyles.subText}>June/2023</p>
           </div>
           {projectClicked === "project2" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                I developed this project using reference materials and expanded
-                upon it after completing the course. I implemented an accordion
-                UI for Channels, allowing users to easily navigate and send
-                images within them. Integrating Firebase for the first time
-                presented some challenges, particularly in saving and displaying
-                images, but I overcame them through resourceful problem-solving.
-                <br />
-                This project taught me the importance of self-learning, and
-                project management. I emphasized code quality and readability.
-                <br />
-                This project showcases my portfolio, highlighting both its
-                technical aspects and the valuable skills and insights gained
-                along the way.
-                <br />
-                <br />
-                ps. There is Log in function.
+              このプロジェクトは、参考資料を使用して初めに開発し、その後自分で追加機能を調査しました。追加した機能には、アコーディオンUIを実装してチャンネル名を表示することが含まれます。また、ユーザーが簡単にチャット内で画像を送信できるようにするためにFirebaseを使用しました。ただし、データベースに保存したものを表示する際に問題が発生し、Documentを見ながら試行錯誤しました。さらに、検索機能も追加し、既存のチャンネル名を検索できる機能を実装しました。
+              <br/>
+
+              このプロジェクトを通じて、自ら課題を追求し、問題解決をする過程や解決した後の達成感を味わうことができ、初めてのチャットアプリを完成させるという自信に繋がりました。これにより、学習のモチベーションが高まりました。
+              <br/>
+              <br/>
+              注：ログイン機能を追加したことにより、Warningが表示されることがあります。
               </p>
               <br />
               <Link
-                className={utilStyles.boldText}
+                className={utilStyles.boldTextHover}
                 href="https://discord-app-nine.vercel.app"
               >
-                Check this project
+                Discordクローンアプリをみてみる
               </Link>
+              <br />
+              <br />
+              <br />
+              <div className={styles.s_Image}>
+              <Image src="/Discord_1.png" layout="responsive" width={300} height={300}/>
+              <p>　＞</p>
+              <Image src="/Discord_2.png" layout="responsive" width={300} height={300}/>
+              </div>
+              <br />
+              <div className={styles.s_Image}>
+              <Image src="/Discord_3.png" width={300} height={100}/>
+              <Image src="/Discord_4.png" width={300} height={300}/>
+              </div>
             </div>
           )}
         </div>
@@ -92,24 +117,19 @@ function MyProject() {
             onClick={() => handleProjectClick("project3")}
           >
             Anime List
+            <p className={utilStyles.subText}>June/2023</p>
           </div>
           {projectClicked === "project3" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                I created a website using an API. As a big fan of anime, I built
-                a website using the Jikan API that allows users to search for
-                anime. I encountered some difficulties when trying to display
-                images. They wouldn't show up, and I had to resort to using
-                console.log to troubleshoot the issue. Whenever I finally solved
-                the problem, I experienced a sense of achievement and a
-                refreshing feeling.
+              Jikan APIを使用して、アニメを検索できるウェブサイトを構築しました。アニメが好きで、常に人気の作品や気になる作品を検索しているため、検索機能に興味を持ちました。画像を表示しようとする際にいくつかの困難に直面しましたが、console.logを使用して問題を解決しました。最終的に問題を解決できたときは、達成感と爽快感を味わいました。
               </p>
               <br />
               <Link
-                className={utilStyles.boldText}
+                className={utilStyles.boldTextHover}
                 href="https://anime-database-kappa.vercel.app/"
               >
-                Check this project
+                アニメリストをみてみる
               </Link>
             </div>
           )}
@@ -120,32 +140,22 @@ function MyProject() {
             onClick={() => handleProjectClick("project4")}
           >
             Typing Game
+            <p className={utilStyles.subText}>June/2023</p>
           </div>
           {projectClicked === "project4" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                This game was inspired by YouTube videos. I learned how to add
-                sound to typing, which made the development process enjoyable. I
-                added scoring and a feature where the game ends after completing
-                10 questions, giving it a unique twist.
-                <br />
-                I also implemented responsive design, allowing the game to be
-                played comfortably on different devices and screen sizes. It
-                automatically adjusts to provide the best experience for users.
-                <br />
-                I use this game to practice and improve my typing speed,
-                enhancing my accuracy and speed.
-                <br />
-                These improvements make the game more user-friendly and
-                captivating. It also showcases my skills and insights gained
-                through game development in my portfolio.
+              このゲームはYouTube動画からインスピレーションを受けています。タイピングに音を追加する方法を学んで、面白かったです。オンライン授業で学んだスコアリングと、10問目を成功したらゲームが終了する機能を入れて、挑戦心や遊び心を追加しました。
+また、レスポンシブデザインを実装し、異なるデバイスや画面サイズでも快適にプレイできるようにしました。
+私はこのゲームを使って、タイピングの速度を練習して向上させ、正確性とスピードを高めています。
+
               </p>
               <br />
               <Link
-                className={utilStyles.boldText}
+                className={utilStyles.boldTextHover}
                 href="https://typing-game-2023.netlify.app"
               >
-                Check this project
+                タイピングゲームをみてみる
               </Link>
             </div>
           )}
@@ -156,31 +166,25 @@ function MyProject() {
             onClick={() => handleProjectClick("project5")}
           >
             Fortune Game
+            <p className={utilStyles.subText}>March/2023</p>
           </div>
           {projectClicked === "project5" && (
             <div className={utilStyles.aboutContents}>
               <p>
-                This game is special to me as it marks my first venture into
-                game development. Guided by instructional materials, I eagerly
-                set out to create a captivating experience. In the process, I
-                introduced a mesmerizing snowfall feature that adds a touch of
-                enchantment to the game.
-                <br />
-                The moment I completed this project, I was overwhelmed with a
-                profound sense of achievement. It was a remarkable realization
-                of the joy and satisfaction that comes from bringing ideas to
-                life through programming. This experience ignited a deep passion
-                within me and further motivated me to explore the vast
-                possibilities that lie within the world of application
-                development.
+              このおみくじサイトは、私にとって特別なものです。なぜなら、これが私が初めて作ったウェブサイトだからです。最初は何を作ればいいのかわからず、身近なものから始めようと考えていました。ある教材に触れ、興味を持ち試してみたところ、自分で作り上げた喜びを感じ、エンジニアとしての道を進む決意を固めるきっかけとなりました。デザインにも少しこだわり、愛犬の写真を使って雪の降り積もりの機能を取り入れ、サイトに特別な雰囲気を与えました。
+
+アイデアをプログラミングを通じて実現することから生まれる喜びや満足感を深く味わうことができました。この経験は私の内に情熱をかき立て、アプリケーション開発の世界に潜む無限の可能性をさらに追求する動機となりました。
               </p>
               <br />
               <Link
-                className={utilStyles.boldText}
+                className={utilStyles.boldTextHover}
                 href="https://chimerical-scone-e6ee81.netlify.app"
               >
-                Check this project
+                おみくじサイトをみてみる
               </Link>
+              <br />
+              <br />
+              <Image src="/Omikuji_Bepo.png" layout="responsive" width={300} height={300}/>
             </div>
           )}
         </div>

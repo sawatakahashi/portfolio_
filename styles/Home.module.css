@@ -20,6 +20,14 @@
   width: 300px;
 }
 
+.s_Image{
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Added spacing between images */
+}
+
+
 .latteImg {
   display: flex;
   justify-content: space-between;

@@ -16,14 +16,10 @@ function History() {
       </Head>
       <div className={styles.aboutContainer}>
         <div className={utilStyles.mediumTextNormal}>
-          <p className={utilStyles.boldText}>My Programming History</p>
-          ・During my student years, I utilized HTML and CSS to design an
-          original blog.
+          <p className={utilStyles.boldText}>プログラミング勉強過程</p>
+          ・Youtube, Udemy, Paizaで独学(2022.Oct)
           <br />
-          ・2022.September : Embarked on my learning journey.
-          <br />
-          ・2023.February-April : Completed a 2 month online course for
-          HTML/CSS/Javascript.
+          ・プログラミングスクールSiid、３ヶ月の短期コースを受け、HTML,CSS,Javascriptの基礎を学習(2023.Feb)
           <br />
         </div>
       </div>
